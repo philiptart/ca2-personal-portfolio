@@ -1,0 +1,580 @@
+/* reset page styling */
+
+*
+{
+	margin: 0;
+	padding: 0;	
+}
+
+
+/* header styling */
+
+header{
+	
+	width: 100%;
+	margin: 0 auto;
+	background-color: #f7f7f7;
+	padding: 0px 30px 0px 30px;	
+	
+	}
+
+.header-flex-cont {
+	
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 0px 20px 0px;
+	align-items: center;
+	
+}
+
+/* header/navigation menu styling */
+
+nav {
+	
+	font-family: 'Lato', sans-serif;
+	
+}
+
+li {
+	
+	list-style-type: none;
+
+}
+
+/* unvisited link */
+
+a:link {
+	
+	color: black;
+	text-decoration: none;
+
+}
+
+/* visited link */
+
+a:visited {
+	
+  	color: black;
+}
+
+/* mouse over link */
+
+a:hover {
+	
+	color: royalblue;
+	text-decoration: underline;
+	
+}
+
+/* header/profile elements styling */
+
+section.profile-flex-cont {
+
+
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 20%;
+	align-items: center;
+	font-family: 'Lato', sans-serif;
+
+}
+
+.profile-flex-cont h1 {
+	
+	padding: 10px 0px 0px 0px;
+	
+}
+
+h1.profile-title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+section img.philiptartimg {
+
+    width: 100px;
+    height: auto;
+	align-items: center;
+	border-radius: 10px;
+	drop-shadow: (10px 7px 7px #6f6f6f);
+    margin-left: 30px;
+}
+
+/* main wrapper styling for body content */
+
+main {
+
+	width: 100%;
+	max-width:1366px;
+	margin: 0 auto;
+	
+}
+
+/* about me details with clickable feature image elements styling */
+
+section.about-me-and-hero-flex-cont {
+	
+	display: flex;
+	min-height: 500px;
+	align-content: flex-start;
+	padding: 20px 20px  ;
+		
+}
+
+section.aboutme {
+
+	flex-grow: 2;
+	width: 100%;
+	height: auto;
+	margin: 0px 30px 0px 0px;
+	min-width: 300px;
+	font-family: 'Lato', sans-serif;
+
+}
+
+section.aboutme p{
+	
+	padding: 30px 0px 0px 0px;
+	font-size:18px;
+	font-weight:300;
+}
+
+section.feature-image{
+
+	height: auto;
+	min-width: 300px;
+	flex-grow: 1;
+	z-index: 1;
+
+}
+
+section.feature-image h3{
+	
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	position: absolute;
+	margin-top: -75px;
+	z-index: 3;
+	background: white;
+	padding: 3px;
+	
+}
+
+img.hero-img1{
+
+	width: 100%;
+	height: auto;
+
+}
+
+/* my work section with clickable images elements styling */
+
+section.mywork {
+	
+	background: #e3e3e3;
+	padding: 60px;
+	border-radius: 25px 0px 25px 0px;
+}
+
+section.mywork h2 {
+	
+	text-align: center;
+	margin: 0px 0px 30px 0px;
+	font-family: 'Lato', sans-serif;
+	
+}
+
+section.mywork-flex-cont{
+	
+	width: 100%;
+	display: flex;
+	align-content: flex-start
+	min-height: 700px;
+	padding: 0px 20px 0px 20px;
+	
+}
+
+figure.horiseon-img2a{
+	
+	
+	height: auto;
+	min-width: 300px;
+	flex-grow: 2;	
+	
+}
+
+figure.horiseon-img2a h3 {
+	
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	position: absolute;
+	margin-top: -25px;
+	z-index: 3;
+	background: white;
+	padding: 3px;
+	border-right: 2px solid #000000;
+	border-top: 2px solid #000000;
+	
+}
+
+figure.gtad-img3a{
+	
+	height: auto;
+	min-width: 300px;
+	flex-grow: 2;	
+	
+}
+
+figure.gtad-img3a h3 {
+	
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	position: absolute;
+	margin-top: -25px;
+	z-index: 3;
+	background: white;
+	padding: 3px;
+	border-right: 2px solid #000000;
+	border-top: 2px solid #000000;
+}
+
+img.horiseon-img2b{
+	
+	width: 100%;
+	height: auto;
+	
+}
+
+img.gtad-img3b{
+	
+	width: 100%;
+	height: auto;
+	
+}
+
+/* contact me and downloadable cv elements styling */
+
+section.contactme-cv-flex-cont {
+	
+	width: 100%;
+	display: flex;
+	align-content: flex-start
+	min-height: 700px;
+	padding: 60px 30px 60px 30px;
+	
+}
+
+section.contactme {
+	
+	height: auto;
+	min-width: 300px;
+	flex-grow: 2;
+	line-height: 3em;
+		
+}
+
+section.contactme h2 {
+	
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	
+}
+
+section.contactme p {
+	
+	padding: 60px 0px 0px 0px;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+		
+}
+
+section.contactme a {
+	
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	
+}
+
+figure.cv {
+	
+	height: auto;
+	min-width: 300px;
+	flex-grow: 1;
+	
+	
+}
+
+figure.cv h2 {
+	
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	
+}
+
+figure.cv .cv-img {
+	
+	padding: 30px 0px 0px 0px;
+	width: 15%;
+	height: auto;
+	
+}
+
+/* footer elements styling */
+
+footer {
+	
+	width: 100%;
+	margin: 0 auto;
+	background-color: #f7f7f7;
+	padding: 0px 30px 0px 30px;	
+	
+	}
+
+footer p {
+	
+	padding: 60px 0px 60px 0px;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center
+	
+}
+
+/* responsive stylng for breakpoints 960px, 768px, 414px using logical flow from html */
+
+@media screen and (max-width: 960px){
+	
+	h2{
+	
+	font-size:3vw;
+		
+	}
+	
+	nav {
+	
+	font-size: 2vw;
+	
+	}
+
+	
+	section img.philiptartimg {
+
+    width: 75px;
+
+	}
+	
+	
+	h1.profile-title {
+	font-size: 3vw;
+	}
+	
+	section.about-me-and-hero-flex-cont {
+	
+	min-height: auto;
+		
+	}
+	
+	section.feature-image h3{
+	
+	font-size: 2vw;
+	margin-top: -30px;
+	border-right: 2px solid #000000;
+	border-top: 2px solid #000000;
+		
+	}
+	
+	section.aboutme p{
+	
+	font-size:2vw;
+		
+	}
+	
+	figure.horiseon-img2a h3 {
+	
+	font-size: 2vw;
+		
+	}
+	
+	figure.gtad-img3a h3 {
+	
+	font-size: 2vw;
+		
+	}
+	
+	section.contactme p {
+	
+	font-size: 2vw;
+	
+	}
+
+	section.contactme a {
+	
+	font-size: 2vw;
+	
+	}
+	
+}
+
+/* tablet/hd-mobile breakpoint elements styling */
+
+@media screen and (max-width: 768px){
+	
+	
+	section.about-me-and-hero-flex-cont {
+	
+	flex-direction: column;
+	padding: 60px 50px 60px 70px;
+	
+		
+	}
+	
+	section.aboutme {
+		
+	margin: 0px;
+	padding: 0px 0px 30px 0px;
+		
+	}
+	
+	section.mywork {
+	
+	padding: 30px 60px 30px 60px;
+	
+	}
+
+	section.mywork h2 {
+	
+	margin: 0px 0px 10px 0px;
+		
+	}
+	
+	section.mywork-flex-cont{
+	
+	flex-direction: column;
+	padding: 0px 0px 0px 10px;
+	margin: 0px;
+		
+	}
+	
+	figure.gtad-img3a{
+	
+	padding: 30px 0px 0px 0px;	
+	
+	}
+	
+	section.contactme-cv-flex-cont {
+	
+	padding: 60px 60px 60px 30px;
+	
+	}
+	
+	footer p {
+	
+	padding: 30px 0px 30px 0px;
+	font-size: 2vw;
+	margin: 0px 0px 0px -60px;
+		
+	}
+	
+}
+
+/* mobile breakpoint elements styling */
+
+@media screen and (max-width: 414px){
+	
+	section.profile-flex-cont {
+		
+	flex-direction: column;
+		
+	}
+	
+	h1.profile-title {
+	
+	margin: 0px 0px 0px -20px;
+		
+	}
+	
+	section img.philiptartimg {
+
+    padding: 10px 0px 0px 0px;
+	margin: 0px 0px 0px -20px;
+
+	}
+	
+	section.about-me-and-hero-flex-cont {
+	
+	padding: 30px 30px 30px 40px;
+		
+	}
+	
+	section.mywork {
+	
+	padding: 30px 40px 30px 30px;
+	
+	}
+
+	section.mywork h2 {
+	
+	margin: 0px 0px 10px 0px;
+		
+	}
+	
+	section.mywork-flex-cont{
+	
+	padding: 0px 0px 0px 10px;
+	
+		
+	}
+	
+	section.contactme-cv-flex-cont {
+	
+	flex-direction: column;
+	padding: 60px 60px 60px 30px;
+	
+	}
+	
+	section.contactme-cv-flex-cont h2 {
+	
+	text-align: center;
+	margin: 0px 0px 0px -60px;
+	
+	}
+
+	section.contactme-cv-flex-cont p {
+	
+	text-align: center;
+	padding: 0px;
+	margin: 0px 0px 0px -60px;
+		
+	}
+	
+	section.contactme-cv-flex-cont a {
+	
+	text-align: center;
+			
+	}
+	
+	.a-github {
+	
+	margin: 0px 0px 0px 160px; 
+	align-content: center;
+	
+	}
+	
+	.a-linkedin {
+	
+	margin: 0px 0px 0px 160px; 
+	padding: 0px 0px 60px 0px;
+	align-content: center;
+	
+	}
+	
+	.cv-img {
+	
+	margin: 0px 0px 0px 145px;
+	align-content: center;
+		
+	}
+}
